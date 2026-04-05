@@ -35,7 +35,6 @@
     .slide-title .subtitle { font-size: 22px; color: var(--text-muted); max-width: 520px; line-height: 1.5; }
     .slide-title .speaker { margin-top: 40px; font-size: 14px; color: var(--text-dim); letter-spacing: 0.05em; }
     .slide-title .speaker span { color: var(--text-muted); font-weight: 500; }
-    .slide-title .event-badge { margin-top: 14px; display: inline-block; padding: 5px 16px; border: 1px solid var(--border); border-radius: 100px; font-size: 10px; letter-spacing: 0.12em; color: var(--text-dim); text-transform: uppercase; font-family: 'Barlow Condensed', sans-serif; }
     .slide-text { align-items: flex-start; max-width: 940px; margin: 0 auto; width: 100%; }
     .slide-label { font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); margin-bottom: 16px; font-weight: 700; }
     .slide-text h2 { font-family: 'Barlow Condensed', sans-serif; font-size: clamp(44px, 5.5vw, 74px); font-weight: 900; line-height: 1.0; text-transform: uppercase; letter-spacing: -0.02em; margin-bottom: 32px; }
@@ -148,264 +147,270 @@
 <div class="slide-counter"><span id="current">1</span> / <span id="total">20</span></div>
 <div class="progress-bar" id="progress"></div>
 <div class="hint">arrow keys to navigate - F for fullscreen</div>
-<div class="nav">
-  <button onclick="prev()">&#8592;</button>
-  <button onclick="next()">&#8594;</button>
-</div>
+<div class="nav"><button onclick="prev()">&#8592;</button><button onclick="next()">&#8594;</button></div>
 <div class="deck" id="deck">
 
-  <!-- SLIDE 1: TITLE -->
-  <div class="slide slide-title active" data-n="1">
-    <div class="overline animate-in">Stirling Business Association, April 30, 2026</div>
-    <h1 class="animate-in delay-1">The<br>Confidence<br>Gap</h1>
-    <p class="subtitle animate-in delay-2">What happens when capable people get stuck.</p>
-    <p class="speaker animate-in delay-3">Alex Cooper <span>Think Small, Start Horribly</span></p>
-  </div>
+<!-- SLIDE 1: TITLE -->
+<div class="slide slide-title active" data-n="1">
+  <div class="overline animate-in">Stirling Business Association, April 30, 2026</div>
+  <h1 class="animate-in delay-1">The<br>Confidence<br>Gap</h1>
+  <p class="subtitle animate-in delay-2">What happens when capable people get stuck.</p>
+  <p class="speaker animate-in delay-3">Alex Cooper <span>Think Small, Start Horribly</span></p>
+</div>
 
-  <!-- SLIDE 2: CORE PROBLEM -->
-  <div class="slide slide-text" data-n="2">
-    <div class="slide-label animate-in">The Problem</div>
-    <h2 class="animate-in delay-1">You already know<br>you are capable.</h2>
-    <p class="body animate-in delay-2">That is not the issue.<br><br>The question is whether you <strong>trust yourself enough</strong> to prove it somewhere new, outside the silo where you built your confidence in the first place.</p>
-    <p class="quote animate-in delay-3">"The question is not whether you are capable.<br>You already know you are.<br>The question is whether you trust yourself enough to prove it."</p>
-  </div>
+<!-- SLIDE 2: CORE PROBLEM -->
+<div class="slide slide-text" data-n="2">
+  <div class="slide-label animate-in">The Problem</div>
+  <h2 class="animate-in delay-1">You already know<br>you are capable.</h2>
+  <p class="body animate-in delay-2">That is not the issue.<br><br>The question is whether you <strong>trust yourself enough</strong> to prove it somewhere new, outside the silo where you built your confidence in the first place.</p>
+  <p class="quote animate-in delay-3">"The question is not whether you are capable.<br>You already know you are.<br>The question is whether you trust yourself enough to prove it."</p>
+</div>
 
-  <!-- SLIDE 3: WHAT THIS IS -->
-  <div class="slide slide-text" data-n="3">
-    <div class="slide-label animate-in">What This Is</div>
-    <h2 class="animate-in delay-1">A framework.<br>Not a motivational speech.</h2>
-    <p class="body animate-in delay-2">This is one hour. The framework is yours to keep.<br>Read it. Sit with it. Come back to it when you need to.</p>
-    <p class="big-quote animate-in delay-3" style="margin-top:28px;">Not a talk <em>about</em> confidence.<br>A talk <em>about the gap</em> between<br>where you are and where you know you could be.</p>
-  </div>
+<!-- SLIDE 3: WHAT THIS IS -->
+<div class="slide slide-text" data-n="3">
+  <div class="slide-label animate-in">What This Is</div>
+  <h2 class="animate-in delay-1">A framework.<br>Not a motivational speech.</h2>
+  <p class="body animate-in delay-2">This is one hour. The framework is yours to keep.<br>Read it. Sit with it. Come back to it when you need to.</p>
+  <p class="big-quote animate-in delay-3" style="margin-top:28px;">Not a talk <em>about</em> confidence.<br>A talk <em>about the gap</em> between<br>where you are and where you know you could be.</p>
+</div>
 
-  <!-- SLIDE 4: MODULE 01 DIVIDER -->
-  <div class="slide slide-divider" data-n="4">
-    <div class="divider-label animate-in">Module 01</div>
-    <div class="divider-title animate-in delay-1">The Silo</div>
-    <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">Where your confidence lives, and why it does not travel.</p>
-  </div>
+<!-- SLIDE 4: MODULE 01 DIVIDER -->
+<div class="slide slide-divider" data-n="4">
+  <div class="divider-label animate-in">Module 01</div>
+  <div class="divider-title animate-in delay-1">The Silo</div>
+  <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">Where your confidence lives, and why it does not travel.</p>
+</div>
 
-  <!-- SLIDE 5: THE SILO -->
-  <div class="slide slide-module" data-n="5">
-    <div class="module-header animate-in">
-      <div class="module-num">01</div>
-      <div>
-        <div class="module-label">Module 01</div>
-        <div class="module-title">The Silo</div>
-      </div>
-    </div>
-    <div class="key-point animate-in delay-1">
-      <div class="bullet"></div>
-      <p><strong>Confidence is domain-specific.</strong> Built in a specific environment, with specific proof, under specific conditions.</p>
-    </div>
-    <div class="key-point animate-in delay-2">
-      <div class="bullet"></div>
-      <p><strong>Self-trust is portable.</strong> It does not require familiarity or proof in the new environment. It travels with you.</p>
-    </div>
-    <div class="key-point animate-in delay-3">
-      <div class="bullet"></div>
-      <p><strong>The Gilded Cage:</strong> Highly capable people build a prison of their own capabilities. The more value you create inside the silo, the harder it is to leave.</p>
-    </div>
-    <p class="quote animate-in delay-4" style="margin-top:16px;">The bridge out is self-trust. Not more confidence.</p>
-  </div>
-
-  <!-- SLIDE 6: SATURATION POINT -->
-  <div class="slide slide-module" data-n="6">
-    <div class="module-header animate-in">
-      <div class="module-num">01</div>
-      <div>
-        <div class="module-label">Module 01, continued</div>
-        <div class="module-title">The Saturation Point</div>
-      </div>
-    </div>
-    <div class="key-point animate-in delay-1">
-      <div class="bullet"></div>
-      <p>Inside the silo: <strong>further contributions cost a lot but provide almost no return.</strong></p>
-    </div>
-    <div class="key-point animate-in delay-2">
-      <div class="bullet"></div>
-      <p>The silo paradox: you perceive your value is held inside the silo, even though the evidence says otherwise.</p>
-    </div>
-    <div class="key-point animate-in delay-3">
-      <div class="bullet"></div>
-      <p>You must accept being in the <strong>early learning phase again.</strong> That is not a failure state. That is the price of the bridge.</p>
-    </div>
-    <p class="quote animate-in delay-4" style="margin-top:16px;">The confidence gap is not a flaw.<br>It is a signal.<br>It is telling you that you have outgrown the silo.</p>
-  </div>
-
-  <!-- SLIDE 7: MODULE 02 DIVIDER -->
-  <div class="slide slide-divider" data-n="7">
-    <div class="divider-label animate-in">Module 02</div>
-    <div class="divider-title animate-in delay-1">Perspective<br>vs Perception</div>
-    <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">How you see the world, and what that creates.</p>
-  </div>
-
-  <!-- SLIDE 8: PERSPECTIVE VS PERCEPTION -->
-  <div class="slide slide-module" data-n="8">
-    <div class="module-header animate-in">
-      <div class="module-num">02</div>
-      <div>
-        <div class="module-label">Module 02</div>
-        <div class="module-title">Perspective vs Perception</div>
-      </div>
-    </div>
-    <div class="perception-chain animate-in delay-1">
-      <div class="chain-link"><h4>Perspective</h4><p>The lens you look through</p></div>
-      <div class="chain-arrow">-&gt;</div>
-      <div class="chain-link"><h4>Beliefs</h4><p>What the lens creates</p></div>
-      <div class="chain-arrow">-&gt;</div>
-      <div class="chain-link"><h4>Perception</h4><p>The reality you act on</p></div>
-    </div>
-    <p class="quote animate-in delay-2">"You are not responding to reality.<br>You are reacting to the reality that your conclusions have created."</p>
-    <p class="body animate-in delay-3" style="margin-top:16px;">If the lens is distorted, <strong>everything downstream is distorted.</strong><br>Fix the perception, not the behaviour.</p>
-  </div>
-
-  <!-- SLIDE 9: MODULE 03 DIVIDER -->
-  <div class="slide slide-divider" data-n="9">
-    <div class="divider-label animate-in">Module 03</div>
-    <div class="divider-title animate-in delay-1">Beliefs<br>Under Pressure</div>
-    <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">Your beliefs are the operating system behind every decision.</p>
-  </div>
-
-  <!-- SLIDE 10: BELIEFS UNDER PRESSURE -->
-  <div class="slide slide-module" data-n="10">
-    <div class="module-header animate-in">
-      <div class="module-num">03</div>
-      <div>
-        <div class="module-label">Module 03</div>
-        <div class="module-title">Beliefs Under Pressure</div>
-      </div>
-    </div>
-    <p class="body animate-in delay-1"><strong>Most beliefs have never been tested.</strong><br>Formed in childhood. Inherited from environment. Built from a single experience that was never revisited.</p>
-    <div class="key-point animate-in delay-2" style="margin-top:22px;">
-      <div class="bullet"></div>
-      <p><strong>Question 1:</strong> "Has everything you have ever believed always turned out to be the truth?"<br><span style="color:var(--text-dim);">The answer is always no.</span></p>
-    </div>
-    <div class="key-point animate-in delay-3">
-      <div class="bullet"></div>
-      <p><strong>Question 2:</strong> "Could it be possible some of the things you currently believe are not as close to the truth as you would want or like?"<br><span style="color:var(--text-dim);">Purpose: extract truth, not destroy beliefs.</span></p>
+<!-- SLIDE 5: THE SILO -->
+<div class="slide slide-module" data-n="5">
+  <div class="module-header animate-in">
+    <div class="module-num">01</div>
+    <div>
+      <div class="module-label">Module 01</div>
+      <div class="module-title">The Silo</div>
     </div>
   </div>
-
-  <!-- SLIDE 11: MODULE 04 DIVIDER -->
-  <div class="slide slide-divider" data-n="11">
-    <div class="divider-label animate-in">Module 04</div>
-    <div class="divider-title animate-in delay-1">The Evolution</div>
-    <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;"><span class="stage-n">N-</span> to <span class="stage-p">P+</span> -- three stages of self trust development</p>
+  <div class="key-point animate-in delay-1">
+    <div class="bullet"></div>
+    <p><strong>Confidence is domain-specific.</strong> Built in a specific environment, with specific proof, under specific conditions.</p>
   </div>
-
-  <!-- SLIDE 12: EVOLUTION STAGES -->
-  <div class="slide slide-module" data-n="12">
-    <div class="module-header animate-in">
-      <div class="module-num">04</div>
-      <div>
-        <div class="module-label">Module 04</div>
-        <div class="module-title">The Evolution</div>
-      </div>
-    </div>
-    <div class="evolution animate-in delay-1">
-      <div class="evo-stage">
-        <div class="evo-badge">Stage 1 <span class="stage-n">N-</span></div>
-        <p class="evo-desc">Lack of self trust.</p>
-      </div>
-      <div class="evo-stage">
-        <div class="evo-badge">Stage 2 <span class="stage-n">N-</span>/<span class="stage-p">P+</span></div>
-        <p class="evo-desc">Self trust is growing but there is still doubt.</p>
-      </div>
-      <div class="evo-stage">
-        <div class="evo-badge">Stage 3 <span class="stage-p">P+</span></div>
-        <p class="evo-desc">Self trust is leading the way.</p>
-      </div>
-    </div>
-    <p class="quote animate-in delay-2" style="margin-top:16px; font-size:clamp(15px,2vw,24px); border-left-color: var(--text-dim);">Stage 2 is the hardest phase. Pull back to <span class="stage-n">N-</span> is constant.</p>
+  <div class="key-point animate-in delay-2">
+    <div class="bullet"></div>
+    <p><strong>Self-trust is portable.</strong> It does not require familiarity or proof in the new environment. It travels with you.</p>
   </div>
-
-  <!-- SLIDE 13: MODULE 05 DIVIDER -->
-  <div class="slide slide-divider" data-n="13">
-    <div class="divider-label animate-in">Module 05</div>
-    <div class="divider-title animate-in delay-1">Building Capability<br>to Respond</div>
-    <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">Opportunity. Challenge. Risk. Three things you need to be able to respond to.</p>
+  <div class="key-point animate-in delay-3">
+    <div class="bullet"></div>
+    <p><strong>The Gilded Cage:</strong> Highly capable people build a prison of their own capabilities. The more value you create inside the silo, the harder it is to leave.</p>
   </div>
+  <p class="quote animate-in delay-4" style="margin-top:16px;">The bridge out is self-trust. Not more confidence.</p>
+</div>
 
-  <!-- SLIDE 14: CAPABILITY TO RESPOND -->
-  <div class="slide slide-module" data-n="14">
-    <div class="module-header animate-in">
-      <div class="module-num">05</div>
-      <div>
-        <div class="module-label">Module 05</div>
-        <div class="module-title">Building Capability to Respond</div>
-      </div>
+<!-- SLIDE 6: SATURATION POINT -->
+<div class="slide slide-module" data-n="6">
+  <div class="module-header animate-in">
+    <div class="module-num">01</div>
+    <div>
+      <div class="module-label">Module 01, continued</div>
+      <div class="module-title">The Saturation Point</div>
     </div>
-    <div class="capability-grid animate-in delay-1">
-      <div class="cap-item">
-        <div class="cap-icon opp">OPP</div>
-        <div class="cap-title">Opportunity</div>
-        <div class="cap-question">Can you step forward when the door opens?</div>
-      </div>
-      <div class="cap-item">
-        <div class="cap-icon cha">CHA</div>
-        <div class="cap-title">Challenge</div>
-        <div class="cap-question">Can you hold your ground in discomfort?</div>
-      </div>
-      <div class="cap-item">
-        <div class="cap-icon ris">RIS</div>
-        <div class="cap-title">Risk</div>
-        <div class="cap-question">Can you act without certainty?</div>
-      </div>
-    </div>
-    <div class="key-point animate-in delay-2" style="margin-top:20px;">
-      <div class="bullet"></div>
-      <p>Every response builds evidence. That evidence becomes <strong>self-trust.</strong></p>
-    </div>
-    <p class="quote animate-in delay-3" style="font-size:clamp(15px,2vw,23px);">"Failures made in the interest of progress are far more readily forgiven than errors made in the interest of fucking around."</p>
   </div>
-
-  <!-- SLIDE 15: MODULE 06 DIVIDER -->
-  <div class="slide slide-divider" data-n="15">
-    <div class="divider-label animate-in">Module 06</div>
-    <div class="divider-title animate-in delay-1">Life's 3 Choices</div>
-    <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">Choose. Collaborate. Defer. And what each one costs.</p>
+  <div class="key-point animate-in delay-1">
+    <div class="bullet"></div>
+    <p>Inside the silo: <strong>further contributions cost a lot but provide almost no return.</strong></p>
   </div>
+  <div class="key-point animate-in delay-2">
+    <div class="bullet"></div>
+    <p>The silo paradox: you perceive your value is held inside the silo, even though the evidence says otherwise.</p>
+  </div>
+  <div class="key-point animate-in delay-3">
+    <div class="bullet"></div>
+    <p>You must accept being in the <strong>early learning phase again.</strong> That is not a failure state. That is the price of the bridge.</p>
+  </div>
+  <p class="quote animate-in delay-4" style="margin-top:16px;">The confidence gap is not a flaw.<br>It is a signal.<br>It is telling you that you have outgrown the silo.</p>
+</div>
 
-  <!-- SLIDE 16: LIFE'S 3 CHOICES -->
-  <div class="slide slide-module" data-n="16">
-    <div class="module-header animate-in">
-      <div class="module-num">06</div>
-      <div>
-        <div class="module-label">Module 06</div>
-        <div class="module-title">Life's 3 Choices</div>
+<!-- SLIDE 7: MODULE 02 DIVIDER -->
+<div class="slide slide-divider" data-n="7">
+  <div class="divider-label animate-in">Module 02</div>
+  <div class="divider-title animate-in delay-1">Perspective<br>vs Perception</div>
+  <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">How you see the world, and what that creates.</p>
+</div>
+
+<!-- SLIDE 8: PERSPECTIVE VS PERCEPTION -->
+<div class="slide slide-module" data-n="8">
+  <div class="module-header animate-in">
+    <div class="module-num">02</div>
+    <div>
+      <div class="module-label">Module 02</div>
+      <div class="module-title">Perspective vs Perception</div>
+    </div>
+  </div>
+  <div class="perception-chain animate-in delay-1">
+    <div class="chain-link"><h4>Perspective</h4><p>The lens you look through</p></div>
+    <div class="chain-arrow">-&gt;</div>
+    <div class="chain-link"><h4>Beliefs</h4><p>What the lens creates</p></div>
+    <div class="chain-arrow">-&gt;</div>
+    <div class="chain-link"><h4>Perception</h4><p>The reality you act on</p></div>
+  </div>
+  <p class="quote animate-in delay-2">"You are not responding to reality.<br>You are reacting to the reality that your conclusions have created."</p>
+  <p class="body animate-in delay-3" style="margin-top:16px;">If the lens is distorted, <strong>everything downstream is distorted.</strong><br>Fix the perception, not the behaviour.</p>
+</div>
+
+<!-- SLIDE 9: MODULE 03 DIVIDER -->
+<div class="slide slide-divider" data-n="9">
+  <div class="divider-label animate-in">Module 03</div>
+  <div class="divider-title animate-in delay-1">Beliefs<br>Under Pressure</div>
+  <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">Your beliefs are the operating system behind every decision.</p>
+</div>
+
+<!-- SLIDE 10: BELIEFS UNDER PRESSURE -->
+<div class="slide slide-module" data-n="10">
+  <div class="module-header animate-in">
+    <div class="module-num">03</div>
+    <div>
+      <div class="module-label">Module 03</div>
+      <div class="module-title">Beliefs Under Pressure</div>
+    </div>
+  </div>
+  <p class="body animate-in delay-1"><strong>Most beliefs have never been tested.</strong><br>Formed in childhood. Inherited from environment. Built from a single experience that was never revisited.</p>
+  <div class="key-point animate-in delay-2" style="margin-top:22px;">
+    <div class="bullet"></div>
+    <p><strong>Question 1:</strong> "Has everything you have ever believed always turned out to be the truth?"<br><span style="color:var(--text-dim);">The answer is always no.</span></p>
+  </div>
+  <div class="key-point animate-in delay-3">
+    <div class="bullet"></div>
+    <p><strong>Question 2:</strong> "Could it be possible some of the things you currently believe are not as close to the truth as you would want or like?"<br><span style="color:var(--text-dim);">Purpose: extract truth, not destroy beliefs.</span></p>
+  </div>
+</div>
+
+<!-- SLIDE 11: MODULE 04 DIVIDER -->
+<div class="slide slide-divider" data-n="11">
+  <div class="divider-label animate-in">Module 04</div>
+  <div class="divider-title animate-in delay-1">The Evolution</div>
+  <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;"><span class="stage-n">N-</span> to <span class="stage-p">P+</span> then three stages of self trust development</p>
+</div>
+
+<!-- SLIDE 12: EVOLUTION STAGES -->
+<div class="slide slide-module" data-n="12">
+  <div class="module-header animate-in">
+    <div class="module-num">04</div>
+    <div>
+      <div class="module-label">Module 04</div>
+      <div class="module-title">The Evolution</div>
+    </div>
+  </div>
+  <div class="evolution animate-in delay-1">
+    <div class="evo-stage">
+      <div class="evo-badge">Stage 1 <span class="stage-n">N-</span></div>
+      <p class="evo-desc">Lack of self trust.</p>
+    </div>
+    <div class="evo-stage">
+      <div class="evo-badge">Stage 2 <span class="stage-n">N-</span>/<span class="stage-p">P+</span></div>
+      <p class="evo-desc">Self trust is growing but there is still doubt.</p>
+    </div>
+    <div class="evo-stage">
+      <div class="evo-badge">Stage 3 <span class="stage-p">P+</span></div>
+      <p class="evo-desc">Self trust is leading the way.</p>
+    </div>
+  </div>
+  <p class="quote animate-in delay-2" style="margin-top:16px; font-size:clamp(15px,2vw,24px); border-left-color: var(--text-dim);">Stage 2 is the hardest phase. Pull back to <span class="stage-n">N-</span> is constant.</p>
+</div>
+
+<!-- SLIDE 13: MODULE 05 DIVIDER -->
+<div class="slide slide-divider" data-n="13">
+  <div class="divider-label animate-in">Module 05</div>
+  <div class="divider-title animate-in delay-1">Building Capability<br>to Respond</div>
+  <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">Opportunity. Challenge. Risk. Three things you need to be able to respond to.</p>
+</div>
+
+<!-- SLIDE 14: CAPABILITY TO RESPOND -->
+<div class="slide slide-module" data-n="14">
+  <div class="module-header animate-in">
+    <div class="module-num">05</div>
+    <div>
+      <div class="module-label">Module 05</div>
+      <div class="module-title">Building Capability to Respond</div>
+    </div>
+  </div>
+  <div class="capability-grid animate-in delay-1">
+    <div class="cap-item">
+      <div class="cap-icon opp">OPP</div>
+      <div class="cap-title">Opportunity</div>
+      <div class="cap-question">Can you step forward when the door opens?</div>
+    </div>
+    <div class="cap-item">
+      <div class="cap-icon cha">CHA</div>
+      <div class="cap-title">Challenge</div>
+      <div class="cap-question">Can you hold your ground in discomfort?</div>
+    </div>
+    <div class="cap-item">
+      <div class="cap-icon ris">RIS</div>
+      <div class="cap-title">Risk</div>
+      <div class="cap-question">Can you act without certainty?</div>
+    </div>
+  </div>
+  <div class="key-point animate-in delay-2" style="margin-top:20px;">
+    <div class="bullet"></div>
+    <p>Every response builds evidence. That evidence becomes <strong>self-trust.</strong></p>
+  </div>
+  <p class="quote animate-in delay-3" style="font-size:clamp(15px,2vw,23px);">"Failures made in the interest of progress are far more readily forgiven than errors made in the interest of fucking around."</p>
+</div>
+
+<!-- SLIDE 15: MODULE 06 DIVIDER -->
+<div class="slide slide-divider" data-n="15">
+  <div class="divider-label animate-in">Module 06</div>
+  <div class="divider-title animate-in delay-1">Life's 3 Choices</div>
+  <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">Choose. Collaborate. Defer. And what each one costs.</p>
+</div>
+
+<!-- SLIDE 16: LIFE'S 3 CHOICES -->
+<div class="slide slide-module" data-n="16">
+  <div class="module-header animate-in">
+    <div class="module-num">06</div>
+    <div>
+      <div class="module-label">Module 06</div>
+      <div class="module-title">Life's 3 Choices</div>
+    </div>
+  </div>
+  <div class="choices animate-in delay-1">
+    <div class="choice-row">
+      <div class="choice-num">01</div>
+      <div class="choice-content">
+        <h3>You Choose</h3>
+        <p>Highest form of agency. Make the decision, own the outcome, accept the consequences.</p>
       </div>
     </div>
-    <div class="choices animate-in delay-1">
-      <div class="choice-row">
-        <div class="choice-num">01</div>
-        <div class="choice-content">
-          <h3>You Choose</h3>
-          <p>Highest form of agency. Make the decision, own the outcome, accept the consequences.</p>
-        </div>
-      </div>
-      <div class="choice-row">
-        <div class="choice-num">02</div>
-        <div class="choice-content">
-          <h3>You Collaborate</h3>
-          <p>Work with someone, share the decision, negotiate terms. Two people driving.</p>
-        </div>
-      </div>
-      <div class="choice-row">
-        <div class="choice-num">03</div>
-        <div class="choice-content">
-          <h3>You Defer</h3>
-          <p>Hand the decision to a third party. You lower expectations. You become a resource for someone else's goals. <strong>You are no longer driving.</strong></p>
-        </div>
+    <div class="choice-row">
+      <div class="choice-num">02</div>
+      <div class="choice-content">
+        <h3>You Collaborate</h3>
+        <p>Work with someone, share the decision, negotiate terms. Two people driving.</p>
       </div>
     </div>
-    <p class="quote animate-in delay-2" style="font-size:clamp(15px,2vw,23px); margin-top:16px; border-left-color: var(--text-dim);">"Most stuck people operate in Choice 3 more than they realise."</p>
+    <div class="choice-row">
+      <div class="choice-num">03</div>
+      <div class="choice-content">
+        <h3>You Defer</h3>
+        <p>Hand the decision to a third party. You lower expectations. You become a resource for someone else's goals. <strong>You are no longer driving.</strong></p>
+      </div>
+    </div>
   </div>
+  <p class="quote animate-in delay-2" style="font-size:clamp(15px,2vw,23px); margin-top:16px; border-left-color: var(--text-dim);">"Most stuck people operate in Choice 3 more than they realise."</p>
+</div>
 
-  <!-- SLIDE 17: MODULE 07 DIVIDER -->
-  <div class="slide slide-divider" data-n="17">
-    <div class="divider-label animate-in">Module 07</div>
-    <div class="divider-title animate-in delay-1">You Are Here<br>-&Who You Are
+<!-- SLIDE 17: MODULE 07 DIVIDER -->
+<div class="slide slide-divider" data-n="17">
+  <div class="divider-label animate-in">Module 07</div>
+  <div class="divider-title animate-in delay-1">You Are Here<br>to Who You Are</div>
+  <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">The honest part. Most people avoid it.</p>
+</div>
+
+<!-- SLIDE 18: TIMELINE MODEL -->
+<div class="slide slide-module" data-n="18">
+  <div class="module-header animate-in">
+    <div class="module-num">07</div>
+    <div>
+      <div class="module-label">Who You Are
     <p class="body animate-in delay-2" style="margin-top:24px; text-align:center;">The honest part. Most people avoid it.</p>
   </div>
 
